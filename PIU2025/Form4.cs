@@ -46,5 +46,10 @@ namespace PIU2025
         {
             this.Close();
         }
+
+        private void salvarComoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            saveFileDialog1.ShowDialog(this);
+        }
     }
 }
